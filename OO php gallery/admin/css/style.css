@@ -1,0 +1,122 @@
+.admin-photo-thumbnail {
+  width: 200px;
+  border-radius: 5px;
+}
+.edit-btn {
+  width: 65px;
+  margin-bottom: 5px;
+}
+
+.user-image {
+  width: 100px;
+}
+
+
+/* Login page */
+
+#login-id label {
+  color: #fff;
+
+}
+
+#bg-login {
+
+  border-radius: 10px;
+
+  background: #f76009;
+  background: -moz-linear-gradient(left,  #f76009 7%, #04b6d6 33%, #ff0f43 65%, #408c54 93%); 
+  background: -webkit-gradient(linear, left top, right top, color-stop(7%,#f76009), color-stop(33%,#04b6d6), color-stop(65%,#ff0f43), color-stop(93%,#408c54));
+  background: -webkit-linear-gradient(left,  #f76009 7%,#04b6d6 33%,#ff0f43 65%,#408c54 93%); 
+  background: -o-linear-gradient(left,  #f76009 7%,#04b6d6 33%,#ff0f43 65%,#408c54 93%); 
+  background: -ms-linear-gradient(left,  #f76009 7%,#04b6d6 33%,#ff0f43 65%,#408c54 93%); 
+  background: linear-gradient(to right,  #f76009 7%,#04b6d6 33%,#ff0f43 65%,#408c54 93%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f76009', endColorstr='#408c54',GradientType=1 );
+
+
+}
+
+/* Photo Modal */
+
+
+
+
+.modal-dialog {
+  width: 90% !important;
+  
+  }
+  
+  .modal-body {
+  overflow: auto;
+  height: 400px !important;
+  min-height: 300px !important;
+  }
+  
+  .modal_thumbnails {
+  
+      width: 150px;
+  }
+  
+  #set_user_image {
+  
+  margin:10px;
+  
+  }
+  
+  
+  #modal_sidebar {
+  
+  position: fixed !important;
+  
+  }
+  
+
+
+/************************Edit Photo Side Bar Style*******************************/
+
+.photo-info-box {
+
+    border: 1px solid #e5e5e5;
+     -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+     box-shadow: 0 1px 1px rgba(0,0,0,.04);
+     background-color: #fff;
+   
+   
+   }
+   
+   .info-box-header {
+     padding: 6px;
+    border-bottom: 1px solid #e5e5e5;
+      -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+     box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    background-color: #fff;
+   
+   }
+   
+     
+   
+   
+   .photo-info-box .box-inner {
+   border-top: 1px solid #e5e5e5;
+   background-color: #fff;
+   padding: 6px;
+   
+   }
+   
+   .photo-info-box .box-inner .text {
+   padding: 7px 9px 19px;
+   
+   }
+   
+   .photo-info-box .box-inner .data {
+   
+       font-weight: bold;
+   }
+   
+   .photo-info-box .info-box-footer{
+   
+   border-top: 1px solid #ddd;
+   background-color: #ddd;
+   padding: 10px;
+   
+   }
+   
